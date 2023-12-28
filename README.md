@@ -26,7 +26,7 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 # How does it works?
 
-**Wikipedia** : "When data that is under revision control is modified, after being retrieved by checking out, this is not in general immediately reflected in the revision control system (in the repository), but must instead be checked in or committed. "
+When data that is under revision control is modified, after being retrieved by checking out, this is not in general immediately reflected in the revision control system (in the repository), but must instead be checked in or committed.
 
 #### Example
 
