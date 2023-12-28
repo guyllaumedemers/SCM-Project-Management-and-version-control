@@ -24,9 +24,11 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 * [Perforce]()
 * [...]()
 
-#### Revision control
+##### Revision control
 
 **Wikipedia** : "In computer software engineering, revision control is any kind of practice that tracks and provides control over changes to source code."
+
+![revision_control]()
 
 # Types of version control systems
 
