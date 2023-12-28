@@ -28,7 +28,7 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 **Wikipedia** : "When data that is under revision control is modified, after being retrieved by checking out, this is not in general immediately reflected in the revision control system (in the repository), but must instead be checked in or committed. For source code control, the working copy (copy outside revision control) is a copy of all files in a particular revision, generally stored locally on the developer's computer. In this case saving the file only changes the working copy, and checking into the repository is a separate step."
 
-## An image worth a thousand word
+#### Example
 
 ![revision_control](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Revision_control.png)
 
