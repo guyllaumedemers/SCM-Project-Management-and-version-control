@@ -2,7 +2,7 @@
 
 ### Using a version control system and why it matters.
 
-**Microsoft** : "Version control synchronizes versions and makes sure that changes don't conflict with changes from others. The team relies on version control to help resolve and prevent conflicts, even when people make changes at the same time."
+**Wikipedia** : "Version control is a component of software configuration management. As a developer edits code, the version control system takes a snapshot of the files. It then saves that snapshot permanently so it can be recalled later if needed."
 
 #### Project
 
@@ -18,7 +18,7 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 #### Version control (or Revision control)
 
-**Wikipedia** : "Version control is a component of software configuration management. As a developer edits code, the version control system takes a snapshot of the files. It then saves that snapshot permanently so it can be recalled later if needed."
+**Wikipedia** : "In computer software engineering, revision control is any kind of practice that tracks and provides control over changes to source code. Software developers sometimes use revision control software to maintain documentation and configuration files as well as source code."
 
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
 * [Perforce](https://www.perforce.com/manuals/p4guide/Content/P4Guide/chapter.overview.html)
@@ -26,7 +26,7 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 # How does it works?
 
-**Wikipedia** : "When data that is under revision control is modified, after being retrieved by checking out, this is not in general immediately reflected in the revision control system (in the repository), but must instead be checked in or committed. For source code control, the working copy (copy outside revision control) is a copy of all files in a particular revision, generally stored locally on the developer's computer. In this case saving the file only changes the working copy, and checking into the repository is a separate step."
+**Wikipedia** : "When data that is under revision control is modified, after being retrieved by checking out, this is not in general immediately reflected in the revision control system (in the repository), but must instead be checked in or committed. "
 
 #### Example
 
@@ -36,7 +36,7 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 ### Distributed
 
-aaa
+Distributed version control (also known as distributed revision control) is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer. This enables automatic management branching and merging, speeds up most operations, improves the ability to work offline, and does not rely on a single location for backups.
 
 ### Centralized
 
