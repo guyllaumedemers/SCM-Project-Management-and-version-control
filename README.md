@@ -28,6 +28,8 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 **Wikipedia** : "In computer software engineering, revision control is any kind of practice that tracks and provides control over changes to source code."
 
+## An image worth a thousand word
+
 ![revision_control](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Revision_control.png)
 
 # Types of version control systems
