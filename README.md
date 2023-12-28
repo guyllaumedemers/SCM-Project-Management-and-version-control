@@ -20,9 +20,9 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 **Wikipedia** : "Version control systems are most commonly run as stand-alone applications, but revision control is also embedded in various types of software."
 
-* [Git]()
-* [Perforce]()
-* [...]()
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
+* [Perforce](https://www.perforce.com/manuals/p4guide/Content/P4Guide/chapter.overview.html)
+* [...](https://en.wikipedia.org/wiki/List_of_version-control_software)
 
 ##### Revision control
 
