@@ -34,15 +34,17 @@ Revision control manages changes to a set of data over time. When data that is u
 
 # Types of version control systems
 
-### Distributed
-
-Distributed version control (also known as distributed revision control) is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer. This enables automatic management [branching](https://en.wikipedia.org/wiki/Branching_(version_control)) and [merging](https://en.wikipedia.org/wiki/Merge_(version_control)), speeds up most operations, improves the ability to work offline, and does not rely on a single location for backups.
-
-![distributed_vc](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Distributed_vc.png)
-
 ### Centralized
 
-aaa
+Traditional revision control systems use a centralized model where all the revision control functions take place on a shared server. If two developers try to change the same file at the same time, without some method of managing access the developers may end up overwriting each other's work. Centralized revision control systems solve this problem in one of two different source management models : [file locking](https://en.wikipedia.org/wiki/File_locking) and [version merging](https://en.wikipedia.org/wiki/Merge_(version_control)).
+
+![centralized_vc](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Centralized_vc.png)
+
+### Distributed
+
+Distributed version control systems (DVCS) use a peer-to-peer approach to version control, as opposed to the client–server approach of centralized systems. Distributed revision control synchronizes repositories by transferring patches from peer to peer. There is no single central version of the codebase; instead, each user has a working copy and the full change history.
+
+![distributed_vc](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Distributed_vc.png)
 
 ## How to setup a distributed system
 
