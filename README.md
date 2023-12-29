@@ -6,7 +6,7 @@
 
 #### Project
 
-Example details are grouped into subject related points and showcase investigation result on the subject of libraries. Further details will be provided on more advance features that are covered in the making of our examples.
+Example details are grouped into subject related points and showcase investigation result on the subject of software configuration management and version control. Further details will be provided on more advance features that are covered in the making of our examples.
 
 #### What this README.md is not
 
@@ -14,7 +14,7 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 ## What's Software configuration management
 
-**Wikipedia** : "Software configuration management is the task of tracking and controlling changes in the software, part of the larger cross-disciplinary field of configuration management. "
+**Wikipedia** : "Software configuration management is the task of tracking and controlling changes in the software, part of the larger cross-disciplinary field of configuration management. SCM practices include revision control and the establishment of baselines. If something goes wrong, SCM can determine the "what, when, why and who" of the change."
 
 #### Version control (or Revision control)
 
