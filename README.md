@@ -28,10 +28,6 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 Revision control manages changes to a set of data over time. When data that is under revision control is modified, after being retrieved by checking out, this is not in general immediately reflected in the revision control system (in the repository), but must instead be checked in or committed.
 
-#### Example
-
-![revision_control](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Revision_control.png)
-
 # Types of version control systems
 
 ### Centralized
@@ -46,8 +42,16 @@ Distributed version control systems (DVCS) use a peer-to-peer approach to versio
 
 ![distributed_vc](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Distributed_vc.png)
 
-## How to setup a distributed system
+# How to setup a distributed system
 
 ### Git
 
+Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
+
+##### Git CLI
+
 aaa
+
+##### Git CLI
+
+aaaa
