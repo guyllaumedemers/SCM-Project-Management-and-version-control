@@ -26,7 +26,7 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 # How does it works?
 
-When data that is under revision control is modified, after being retrieved by checking out, this is not in general immediately reflected in the revision control system (in the repository), but must instead be checked in or committed.
+Revision control manages changes to a set of data over time. When data that is under revision control is modified, after being retrieved by checking out, this is not in general immediately reflected in the revision control system (in the repository), but must instead be checked in or committed.
 
 #### Example
 
@@ -36,8 +36,16 @@ When data that is under revision control is modified, after being retrieved by c
 
 ### Distributed
 
-Distributed version control (also known as distributed revision control) is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer. This enables automatic management branching and merging, speeds up most operations, improves the ability to work offline, and does not rely on a single location for backups.
+Distributed version control (also known as distributed revision control) is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer. This enables automatic management [branching](https://en.wikipedia.org/wiki/Branching_(version_control)) and [merging](https://en.wikipedia.org/wiki/Merge_(version_control)), speeds up most operations, improves the ability to work offline, and does not rely on a single location for backups.
+
+![distributed_vc](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Distributed_vc.png)
 
 ### Centralized
+
+aaa
+
+## How to setup a distributed system
+
+### Git
 
 aaa
