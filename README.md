@@ -21,7 +21,7 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 **Wikipedia** : "In computer software engineering, revision control is any kind of practice that tracks and provides control over changes to source code. Software developers sometimes use revision control software to maintain documentation and configuration files as well as source code."
 
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
-* [Perforce](https://www.perforce.com/manuals/p4guide/Content/P4Guide/chapter.overview.html)
+* [Helix Core](https://www.perforce.com/manuals/p4guide/Content/P4Guide/chapter.overview.html)
 * [...](https://en.wikipedia.org/wiki/List_of_version-control_software)
 
 # How does it works?
@@ -47,6 +47,16 @@ Distributed version control systems (DVCS) use a peer-to-peer approach to versio
 ### Git
 
 Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
+
+## What you need to know
+
+### File Versionning
+
+#### Git objects
+
+The major difference between Git and any other VCS is the way Git thinks about its data. Conceptually, most other systems store information as a list of file-based changes. Git doesn’t think of or store its data this way. Instead, Git thinks of its data more like a series of snapshots of a miniature filesystem.
+
+**Tips** : "I strongly suggest you visit [Snapshots, Not Differences](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F) for futher details on how Git differ from other typical VCS. Also, in-depth explanation on how Git handle 'blob', 'tree object' and 'commit object', which are core concept to understand, can be found [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)."
 
 ##### Git CLI
 
