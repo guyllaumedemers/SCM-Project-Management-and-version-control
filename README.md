@@ -64,7 +64,7 @@ The major difference between Git and any other VCS is the way Git thinks about i
 
 ![snapshot](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Snapshots.png)
 
-**Tips** : "I strongly suggest you visit [Snapshots, Not Differences](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F) for futher details on how Git differ from other typical VCS. Also, in-depth explanation on how Git handle 'blob', 'tree object' and 'commit object', which are key concept, can be found [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)."
+**Tips** : "I strongly suggest you visit [Snapshots, Not Differences](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F) for futher details on how Git differ from other typical VCS. Also, in-depth explanation on how Git handle **blob**, **tree object** and **commit object**, which are key concept, can be found [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)."
 
 ##### Git CLI
 
