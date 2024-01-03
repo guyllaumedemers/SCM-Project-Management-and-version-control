@@ -1,4 +1,4 @@
-# Software configuration management, Introduction to project management and version control
+ï»¿# Software configuration management, Introduction to project management and version control
 
 ### Using a version control system and why it matters.
 
@@ -38,7 +38,7 @@ Traditional revision control systems use a centralized model where all the revis
 
 ### Distributed
 
-Distributed version control systems (DVCS) use a peer-to-peer approach to version control, as opposed to the client–server approach of centralized systems. Distributed revision control synchronizes repositories by transferring patches from peer to peer. There is no single central version of the codebase; instead, each user has a working copy and the full change history.
+Distributed version control systems (DVCS) use a peer-to-peer approach to version control, as opposed to the clientâ€“server approach of centralized systems. Distributed revision control synchronizes repositories by transferring patches from peer to peer. There is no single central version of the codebase; instead, each user has a working copy and the full change history.
 
 ![distributed_vc](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Distributed_vc.png)
 
@@ -52,9 +52,7 @@ Git is a fast, scalable, distributed revision control system with an unusually r
 
 ### File Versionning
 
-#### Git objects
-
-The major difference between Git and any other VCS is the way Git thinks about its data. Conceptually, most other systems store information as a list of file-based changes. Git doesn’t think of or store its data this way. Instead, Git thinks of its data more like a series of snapshots of a miniature filesystem.
+The major difference between Git and any other VCS is the way Git thinks about its data. Conceptually, most other systems store information as a list of file-based changes. Git doesnâ€™t think of or store its data this way. Instead, Git thinks of its data more like a series of snapshots of a miniature filesystem.
 
 #### Delta
 
@@ -66,8 +64,22 @@ The major difference between Git and any other VCS is the way Git thinks about i
 
 **Tips** : "I strongly suggest you visit [Snapshots, Not Differences](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F) for futher details on how Git differ from other typical VCS. Also, in-depth explanation on how Git handle **blob**, **tree object** and **commit object**, which are key concept, can be found [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)."
 
-##### Git CLI
+### Understanding Git States
+
+**Pay attention now** - Git has three main states that your files can reside in: modified, staged, and committed:
+
+* **Modified** : means that you have changed the file but have not committed it to your version database yet.
+* **Staged** : means that you have marked a modified file in its current version to go into your next commit snapshot.
+* **Committed** : means that the data is safely stored in your local database.
+
+![states](https://github.com/guyllaumedemers/SCM-Project-Management-and-version-control/blob/master/res/Git_states.png)
+
+*See [What's Git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F) to get a more in-depth understanding of Git Workflow!*
+
+### Git CLI
+
+##### Example - GitBash Cmd-line
 
 ```
-// aa
+C:> 
 ```
