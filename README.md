@@ -56,12 +56,18 @@ Git is a fast, scalable, distributed revision control system with an unusually r
 
 The major difference between Git and any other VCS is the way Git thinks about its data. Conceptually, most other systems store information as a list of file-based changes. Git doesn’t think of or store its data this way. Instead, Git thinks of its data more like a series of snapshots of a miniature filesystem.
 
-**Tips** : "I strongly suggest you visit [Snapshots, Not Differences](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F) for futher details on how Git differ from other typical VCS. Also, in-depth explanation on how Git handle 'blob', 'tree object' and 'commit object', which are core concept to understand, can be found [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)."
+#### Delta
+
+![delta-based]()
+
+#### Snapshot
+
+![snapshot]()
+
+**Tips** : "I strongly suggest you visit [Snapshots, Not Differences](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F) for futher details on how Git differ from other typical VCS. Also, in-depth explanation on how Git handle 'blob', 'tree object' and 'commit object', which are key concept, can be found [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)."
 
 ##### Git CLI
 
-aaa
-
-##### Git CLI
-
-aaaa
+```
+// aa
+```
