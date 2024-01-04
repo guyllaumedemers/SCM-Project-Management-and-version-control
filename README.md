@@ -81,5 +81,43 @@ The major difference between Git and any other VCS is the way Git thinks about i
 ##### Example - GitBash Cmd-line
 
 ```
-C:> 
+//  Staging Modified/or Untracked file
+
+C:> echo "HelloWorld" > HelloWorld.txt
+C:> git status
+C:> git add HelloWorld.txt
+C:> git status
 ```
+
+**Notes** : Our first `git status` will output to the console that our newly created .txt hasn't yet been tracked by `git`. Once stage via `git add`, the output console will display that the change is ready to be commited to our local workspace, not the remote. Remember that version tracking is done locally as you own a copy of the full file history from the initial `git clone` of the remote repository.
+
+**Tips** : `git add .` act a as a wildcard, and stage all modified files, plus untracked files.
+
+##### Example - GitBash Cmd-line
+
+```
+//  Commiting Staged file
+
+C:> echo "HelloWorld" > HelloWorld.txt
+C:> git add HelloWorld.txt
+C:> git commit		(requires a 'commit' message)
+C:> git status
+```
+
+**Tips** : `git commit -m "SomeMessage"` allow inlining the commit process.
+
+##### Example - GitBash Cmd-line
+
+```
+//  Diffing Modified/or Staged file
+
+C:> echo "HelloWorld_v1" > HelloWorld.txt
+C:> git add HelloWorld.txt
+C:> git commit -m "SomeMessage"
+C:> echo "HelloWorld_v2" > HelloWorld.txt
+C:> git diff
+```
+
+**Notes** : `git diff` will output to the console the delta on the modified file vs. the staged version.
+
+**Tips** : `git diff --staged` will output to the console the delta on the staged file vs. the commited version. To get a full ouput of the modified and staged, use `git diff --cached`.
