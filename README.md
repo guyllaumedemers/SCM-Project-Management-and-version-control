@@ -118,6 +118,4 @@ C:> echo "HelloWorld_v2" > HelloWorld.txt
 C:> git diff
 ```
 
-**Notes** : `git diff` will output to the console the delta on the modified file vs. the staged version.
-
-**Tips** : `git diff --staged` will output to the console the delta on the staged file vs. the commited version.
+**Tips** : `git diff` will output to the console the delta on the modified file vs. the staged version. `git diff --staged` will output to the console the delta on the staged file vs. the commited version.
