@@ -113,7 +113,6 @@ C:> git status
 
 C:> echo "HelloWorld_v1" > HelloWorld.txt		(.txt - make sure it's encoded in utf-8)
 C:> git add HelloWorld.txt
-C:> git commit -m "SomeMessage"
 C:> echo "HelloWorld_v2" > HelloWorld.txt
 C:> git diff
 ```
