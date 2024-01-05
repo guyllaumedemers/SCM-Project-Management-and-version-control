@@ -89,7 +89,7 @@ C:> git add HelloWorld.txt
 C:> git status
 ```
 
-**Notes** : Our first `git status` will output to the console that our newly created .txt hasn't yet been tracked by git. Once stage via `git add`, the output console will display that the change is ready to be commited to our local workspace, not the remote. Remember that version tracking is done locally as you own a copy of the full file history from the initial `git clone` of the remote repository.
+**Notes** : Our first `git status` will output to the console that our newly created .txt hasn't yet been tracked by git. Once stage via `git add`, the output console will display that the change is ready to be commited to our local workspace, not the remote, and generate a snapshot of all files (creating **blob**, **tree objects** and a **commit object**). **Remember that version tracking is done locally as you own a copy of the full file history from the initial `git clone` of the remote repository. A seperate action has to happen in order to update the remote with the local changes and update the endpoint file history.**
 
 **Tips** : `git add .` act a as a wildcard, and stage all modified files, plus untracked files.
 
