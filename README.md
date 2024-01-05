@@ -83,7 +83,7 @@ The major difference between Git and any other VCS is the way Git thinks about i
 ```
 //  Staging Modified/or Untracked file
 
-C:> echo "HelloWorld" > HelloWorld.txt
+C:> echo "HelloWorld" > HelloWorld.txt			(.txt - make sure it's encoded in utf-8)
 C:> git status
 C:> git add HelloWorld.txt
 C:> git status
@@ -98,7 +98,7 @@ C:> git status
 ```
 //  Commiting Staged file
 
-C:> echo "HelloWorld" > HelloWorld.txt
+C:> echo "HelloWorld" > HelloWorld.txt			(.txt - make sure it's encoded in utf-8)
 C:> git add HelloWorld.txt
 C:> git commit		(requires a 'commit' message)
 C:> git status
@@ -111,7 +111,7 @@ C:> git status
 ```
 //  Diffing Modified/or Staged file
 
-C:> echo "HelloWorld_v1" > HelloWorld.txt
+C:> echo "HelloWorld_v1" > HelloWorld.txt		(.txt - make sure it's encoded in utf-8)
 C:> git add HelloWorld.txt
 C:> git commit -m "SomeMessage"
 C:> echo "HelloWorld_v2" > HelloWorld.txt
