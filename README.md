@@ -66,7 +66,7 @@ The major difference between Git and any other VCS is the way Git thinks about i
 
 ### Understanding Git States
 
-**Pay attention now** - Git has three main states that your files can reside in: modified, staged, and committed:
+**Pay attention now** - Git has three main states that your files can reside in: **modified**, **staged**, and **committed**:
 
 * **Modified** : means that you have changed the file but have not committed it to your version database yet.
 * **Staged** : means that you have marked a modified file in its current version to go into your next commit snapshot.
@@ -89,7 +89,7 @@ C:> git add HelloWorld.txt
 C:> git status
 ```
 
-**Notes** : Our first `git status` will output to the console that our newly created .txt hasn't yet been tracked by `git`. Once stage via `git add`, the output console will display that the change is ready to be commited to our local workspace, not the remote. Remember that version tracking is done locally as you own a copy of the full file history from the initial `git clone` of the remote repository.
+**Notes** : Our first `git status` will output to the console that our newly created .txt hasn't yet been tracked by git. Once stage via `git add`, the output console will display that the change is ready to be commited to our local workspace, not the remote. Remember that version tracking is done locally as you own a copy of the full file history from the initial `git clone` of the remote repository.
 
 **Tips** : `git add .` act a as a wildcard, and stage all modified files, plus untracked files.
 
@@ -120,4 +120,4 @@ C:> git diff
 
 **Notes** : `git diff` will output to the console the delta on the modified file vs. the staged version.
 
-**Tips** : `git diff --staged` will output to the console the delta on the staged file vs. the commited version. To get a full ouput of the modified and staged, use `git diff --cached`.
+**Tips** : `git diff --staged` will output to the console the delta on the staged file vs. the commited version.
